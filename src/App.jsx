@@ -1,3 +1,4 @@
+import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
 function App() {
@@ -5,8 +6,9 @@ function App() {
 
   return (
     <>
-      <div className="bg-black max-w-[1440px] mx-auto">
+      <div className="bg-black">
         <Navbar></Navbar>
+        <Hero></Hero>
       </div>
 
     </>
