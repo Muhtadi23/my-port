@@ -3,8 +3,8 @@
 const Navbar = () => {
 
     const navOptions = <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+        <li><a>About</a></li>
+        <li><a>Work</a></li>
     </>
     return (
         <div className="bg-black text-white max-w-[1440px] mx-auto">
