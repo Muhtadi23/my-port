@@ -25,7 +25,7 @@ const Navbar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end lg:flex md:flex hidden">
                     <a className="btn bg-[#eb4034] text-white">Button</a>
                 </div>
             </div>

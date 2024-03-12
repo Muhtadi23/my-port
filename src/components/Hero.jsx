@@ -20,7 +20,7 @@ const Hero = () => {
                                     2000,
                                 ]}
                                 speed={50}
-                                style={{ fontSize: '4em', color: 'white' }}
+                                style={{ fontSize: '3.5em', color: 'white' }}
                                 repeat={Infinity}
                             />
                         </div>
