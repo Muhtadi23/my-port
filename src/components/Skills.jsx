@@ -28,37 +28,38 @@ const Skills = () => {
         // </div>
         <div className='p-4 max-w-[1440px] mx-auto '>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row justify-evenly">
-                <div className="avatar">
+                
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={html} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={css} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={js} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={react} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={mongo} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={git} />
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar justify-center">
                     <div className="w-24 mask mask-hexagon">
                         <img src={fig} />
                     </div>
