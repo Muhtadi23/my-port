@@ -4,14 +4,14 @@ import ServiceCard from "./ServiceCard";
 
 const ServiceData = [
     {
-        _id:1,
+        _id: 1,
         title: "Web Design",
         description:
             "Used for astronomical observations, capturing stunning images of the universe.",
         icon: <FaLaptopCode className="text-7xl" />,
     },
     {
-        _id:2,
+        _id: 2,
         title: "WordPress",
         description:
             ", it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
@@ -19,7 +19,7 @@ const ServiceData = [
 
     },
     {
-        _id:3,
+        _id: 3,
         title: "GPS",
         description:
             "Part of the Global Positioning System (GPS) used for navigation.",
@@ -34,9 +34,9 @@ const Services = () => {
                 heading={"My Services"}
             ></SectionTitle>
 
-            <div className="flex justify-evenly text-white gap-6">
+            <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-3 text-white gap-6 p-2">
                 {
-                    ServiceData.map(service =><ServiceCard key={service._id} service={service} ></ServiceCard>)
+                    ServiceData.map(service => <ServiceCard key={service._id} service={service} ></ServiceCard>)
                 }
             </div>
         </div>

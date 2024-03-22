@@ -3,7 +3,7 @@
 const Navbar = () => {
 
     const navOptions = <>
-        <li><a>About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a>Work</a></li>
     </>
     return (

@@ -18,13 +18,16 @@ const Hero = () => {
                                     2000,
                                     'I am a Front-end Developer',
                                     2000,
+                                    'I am a Passionate Cyclist',
+                                    2000,
                                 ]}
                                 speed={50}
                                 style={{ fontSize: '3.5em', color: 'white' }}
                                 repeat={Infinity}
                             />
                         </div>
-                        <button className="btn bg-[#eb4034] text-white border-none px-8 border rounded-full">Download CV</button>
+                        <img src="" alt="" />
+                        <button  className="btn bg-[#eb4034] text-white border-none px-8 border rounded-full">Download CV</button>
                     </div>
                 </div>
             </div>

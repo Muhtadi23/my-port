@@ -1,8 +1,9 @@
 
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ service }) => {
     return (
-        <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+
+            <div className="card min-h-[180px] bg-base-100 shadow-xl">
                 <figure className="text-7xl px-10 pt-10">
                     {service.icon}
                 </figure>
@@ -11,7 +12,7 @@ const ServiceCard = ({ service }) => {
                     <p>{service.description}</p>
                 </div>
             </div>
-        </div>
+
     );
 };
 

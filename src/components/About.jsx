@@ -1,10 +1,9 @@
-import my from '../assets/myImg.jpg'
-import ibra from '../assets/ibra.jpg'
+
 import one from '../assets/one.jpg'
 
 const About = () => {
     return (
-        <div className='lg:max-w-[1440px] mx-auto lg:flex md:flex-row sm:flex-col items-center mt-14 gap-14 p-4'>
+        <div id='about' className='lg:max-w-[1440px] mx-auto lg:flex md:flex-row sm:flex-col items-center mt-14 gap-14 p-4'>
             <div><img className='' src={one} alt="" /></div>
             <div className='text-white text-center'>
                 <h3 className='text-3xl font-bold mb-6 mt-6'>About Me</h3>
